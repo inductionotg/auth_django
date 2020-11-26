@@ -13,3 +13,6 @@ def python_exams_view(request):
 
 def apti_exams_view(request):
     return render(request,'testApp/aptiexams.html')
+
+def logout_view(request):
+    return render(request,'testApp/logout.html')
