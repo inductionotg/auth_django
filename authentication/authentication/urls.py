@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ad/', views.home_page_view),
     path('java/', views.java_exams_view),
+    path('python/', views.python_exams_view),
+    path('apti/', views.apti_exams_view),
 ]
