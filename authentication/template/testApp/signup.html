@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{%extends 'testApp/base.html'%}
+    {%block body_block%}
+    <div class="jumbotron">
+      <div class="container">
+        <h1>SIGN UP PLEASE !!! TO GIVE EXAMS</h1>
+        <form  method="post">
+          {{form.as_p}}
+          {%csrf_token%}
+          <input type="submit"  class=" btn btn-primary" name="" value="Signup">
+
+        </form>
+      </div>
+
+    </div>
+
+
+
+    {%endblock%}
