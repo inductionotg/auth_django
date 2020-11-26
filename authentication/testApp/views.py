@@ -6,4 +6,9 @@ def home_page_view(request):
 
 def java_exams_view(request):
     return render(request,'testApp/javaexams.html')
-    
+
+def python_exams_view(request):
+    return render(request,'testApp/pythonexams.html')
+
+def apti_exams_view(request):
+    return render(request,'testApp/aptiexams.html')
