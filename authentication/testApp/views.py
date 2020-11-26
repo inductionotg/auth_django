@@ -7,10 +7,10 @@ def home_page_view(request):
 @login_required
 def java_exams_view(request):
     return render(request,'testApp/javaexams.html')
-
+@login_required
 def python_exams_view(request):
     return render(request,'testApp/pythonexams.html')
-
+@login_required
 def apti_exams_view(request):
     return render(request,'testApp/aptiexams.html')
 
